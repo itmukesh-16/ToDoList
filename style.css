@@ -42,6 +42,6 @@ tolist header starts here
 }
 
 #optTaskList{
-    height: 100%;
+    height: 50vh;
     width: 100%;
 }
