@@ -40,3 +40,8 @@ tolist header starts here
     justify-content: center;
     flex-direction: column;
 }
+
+#optTaskList{
+    height: 100%;
+    width: 100%;
+}
