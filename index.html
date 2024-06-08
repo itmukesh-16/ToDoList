@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="style.css">
 </head>
 
     <script>
@@ -116,7 +119,7 @@
             }
 
             function pendingTaskCount(){
-                document.getElementById("divPendingTask").innerHTML=` Pending task :<br><b> ${pendingTask} </b>`;
+                document.getElementById("divPendingTask").innerHTML=` Pending :<br><b> ${pendingTask} </b>`;
             }
             function completedTaskCount(){
                 document.getElementById("divCompletedTask").innerHTML=` Done :<br> <b> ${completedTask} </b>`;
@@ -126,7 +129,7 @@
 </head>
 <body onload="onloadTasks() "  class="container-fluid" style="display: flex;justify-content:center;align-items: center;background-color: skyblue;">
   
-   <div class="w-25 text-center text-light p-2 mt-5" style="border-radius:2em; border:1px solid black;min-height:30em;background-color: black;">
+   <div class="toDoBody">
     <h1 ><span class="bi bi-calendar2-check  fs-2 text-warning"></span>  ToDoList</h1>
     <div class="todolist-body">
         <div class="row m-2 ">
